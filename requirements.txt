@@ -1,8 +1,7 @@
 fastapi
 uvicorn
-streamlit
+numpy
 pandas
 scikit-learn
-plotly
 joblib
-requests
+sqlalchemy
