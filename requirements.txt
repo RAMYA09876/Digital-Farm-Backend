@@ -7,4 +7,4 @@ joblib
 sqlalchemy
 streamlit
 plotly
-rebuild
+# rebuild
