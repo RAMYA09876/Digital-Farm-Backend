@@ -73,7 +73,7 @@ page = st.sidebar.radio(
 # ===============================
 def get_data():
     try:
-        df = pd.read_csv("amu_residue_records_6000.csv")
+        df = pd.read_csv("https://raw.githubusercontent.com/RAMYA09876/Digital-Farm-Backend/main/amu_residue_records_6000.csv")
 
         # 👉 FIX: CREATE MRL COLUMN
         if "mrl" not in df.columns:
